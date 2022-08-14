@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styleAdvanced.css">
+   <title>Boogle Search</title>
+</head>
+<body>
+   <div class="header">
+      <a class="title" href="index.html">Boogle</a>
+   </div>
+   <div class="container_title">
+      <p class="title2">Advanced Search</p>
+   </div>
+   <div class="border"></div>
+   <div class="container_form">
+         <div class="form_search">
+            <form class="form" action="https://google.com/search">
+               <div class="form_blocks_desc">
+                  <p class="hel">Find pages with...</p>
+                  <p class="hel">To do this in the search box.</p>
+               </div>
+               <div class="settings">
+                  <div class="labels">
+                     <label for="allWords">all these words:</label>
+                     <label for="exactWords">this exact word or phrase:</label>
+                     <label for="anyWords">any of these words:</label>
+                     <label for="noneWords">none of these words:</label>
+                  </div>
+   
+                  <div class="form_blocks">
+                     <input id="allWords" class="search" type="text" name="as_q" autocomplete="off" autofocus>
+                     <input id="exactWords" class="search" type="text" name="as_epq" autocomplete="off" autofocus>
+                     <input id="anyWords" class="search" type="text" name="as_oq" autocomplete="off" autofocus>
+                     <input id="noneWords" class="search" type="text" name="as_eq" autocomplete="off" autofocus>
+                  </div>
+                  
+                  <div class="form_blocks_p">
+                     <p>
+                        Type the important words: <span class="paticular">tri-colour rat terrier</span>
+                     </p>
+                     <p>
+                        Put exact words in quotes: <span class="paticular"> "rat terrier"</span>
+                     </p>
+                     <p>
+                        Type <span class="paticular">OR</span> between all the words you want: <span class="paticular"> miniature OR standard</span>
+                     </p>
+                     <p>
+                        Put a minus sign just before words that you don't want: <span class="paticular">-rodent, -"Jack Russell"</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="form_block_btn">
+                  <input class="btn" type="submit" value="Advanced Search">
+               </div>
+            </form>
+         </div>
+   </div>
+</body>
+</html>
